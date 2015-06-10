@@ -1,0 +1,130 @@
+/* CSS RESET */
+
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:0 0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* END CSS RESET */
+
+html, body { height: 100%; }
+
+html {
+	font-size: 18px;
+  background: url(roda.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: 'Open Sans';
+}
+
+.navmenu {
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 0;
+	background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	font-weight: 800;
+	color: #6fc3e8;
+}
+
+.navmenu img {
+	height: 100px;
+	padding-left: 1rem;
+}
+
+.navmenu ul {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	float: right;
+	padding: 2.7rem 2rem 0 0;
+}
+
+.navmenu li {
+	display: inline;
+}
+
+.navmenu li:not(:last-child) {
+	padding-right: 5rem;
+}
+
+.welcometext {
+  height: 100%;
+}
+
+.welcometext h2 {
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+  text-align: center;
+	color: #6fc3e8;
+	font-size: 6rem;
+	font-style: italic;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  width: 800px;
+  margin: 2rem auto 2rem auto;
+	background-color: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  padding: 1rem 1rem 1rem 1rem;
+	color: #6fc3e8;
+	line-height: 1.3rem;
+}
+
+.intro p {
+  text-align: center;
+}
+
+.house {
+  margin: 1rem 0 0 0;
+  height: 198px;
+	padding: 0 2rem 0 2rem;
+}
+
+.house img {
+  width: 350px;
+  float: left;
+  margin-right: 2rem;
+}
+
+.house ul {
+  list-style-type: none;
+  margin: 1rem 0 1rem 0;
+}
+
+p.housetitle {
+  font-style: italic;
+	font-size: 1.2rem;
+}
+
+
+/* FROM HERE */
+
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+
+ul li ul {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  visibility: hidden;
+}
+
+ul li:hover ul {
+  visibility: visible;
+}
+
+ul li:hover ul li {
+	background-color: red;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	padding: 1rem 0 1rem 0.5rem;
+}
