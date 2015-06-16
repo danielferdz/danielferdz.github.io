@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Services</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <script type="text/javascript" language="JavaScript"><!--
+  function HideContent(d) {
+  document.getElementById(d).style.display = "none";
+  }
+  function ShowContent(d) {
+  document.getElementById(d).style.display = "block";
+  }
+  function ReverseDisplay(d) {
+  if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+  else { document.getElementById(d).style.display = "none"; }
+  }
+  //--></script>
+
+
+ </head>
+ <body>
+
+   <div class="navmenu">
+   <a href="home"><img src="parasol_logo.png"></a>
+     <ul>
+       <li><a href="services.html">Services</a>
+         <ul><li>Property Management</li><li>Test2</li>
+         </ul>
+       </li>
+       <li><a href="properties.html">Properties</a></li>
+       <li>Things To Do
+         <ul><li>Test1</li><li>Test2</li>
+         </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+
+   <div class="content">
+
+   <!-- Start code for the form-->
+   <form method="post" name="myemailform" action="form-to-email.php">
+   	<p>
+   		<label for='name'>Enter Name: </label><br>
+   		<input type="text" name="name">
+   	</p>
+   	<p>
+   		<label for='email'>Enter Email Address:</label><br>
+   		<input type="text" name="email">
+   	</p>
+   	<p>
+   		<label for='message'>Enter Message:</label> <br>
+   		<textarea name="message" rows="8" cols="100"></textarea>
+   	</p>
+   	<input type="submit" name='submit' value="submit">
+   </form>
+   <script language="JavaScript">
+   // Code for validating the form
+   // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+   // for details
+   var frmvalidator  = new Validator("myemailform");
+   frmvalidator.addValidation("name","req","Please provide your name");
+   frmvalidator.addValidation("email","req","Please provide your email");
+   frmvalidator.addValidation("email","email","Please enter a valid email address");
+   </script>
+
+   </div>
+
+ </body>
+</html>
