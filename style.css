@@ -109,6 +109,7 @@ html {
 p.housetitle {
   font-style: italic;
 	font-size: 1.2rem;
+	padding-top: 2%;
 }
 
 h3.servicetitle {
@@ -133,6 +134,14 @@ td {
 	font-size: 1rem;
 }
 
+.housegallery {
+	text-align: center;
+}
+
+.housegallery img {
+	width: 392px;
+	margin: 0 0.2rem 0.2rem 0.2rem;
+}
 
 /* FROM HERE */
 
