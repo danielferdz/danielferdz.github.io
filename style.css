@@ -129,6 +129,10 @@ td {
 	text-align: right;
 }
 
+.contactform input,.contactform textarea {
+	font-size: 1rem;
+}
+
 
 /* FROM HERE */
 
