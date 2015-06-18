@@ -85,6 +85,13 @@ html {
 	margin-bottom: 1rem;
 }
 
+.content ul {
+	list-style-type: none;
+	margin-bottom: 1rem;
+}
+
+.content li:before {content: "- ";}
+
 .intro p {
   text-align: center;
 }
@@ -141,4 +148,13 @@ td {
 .housegallery img {
 	width: 392px;
 	margin: 0 0.2rem 0.2rem 0.2rem;
+}
+
+.content a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.content a:hover {
+	text-decoration: underline;
 }
