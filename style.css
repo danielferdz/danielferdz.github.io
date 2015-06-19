@@ -61,7 +61,7 @@ html {
 }
 
 .navmenu li:not(:last-child) {
-	padding-right: 5rem;
+	padding-right: 4rem;
 }
 
 .welcometext {
