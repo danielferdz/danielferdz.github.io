@@ -54,6 +54,7 @@ html {
 	text-transform: uppercase;
 	float: right;
 	padding: 2.7rem 2rem 0 0;
+	display: inline;
 }
 
 .navmenu li {
