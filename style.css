@@ -189,6 +189,7 @@ td {
   .navmenu ul {
 		padding-top: 0.8rem;
     padding-right: 1rem;
+		font-size: 1.4rem;
   }
 
 	.navmenu li:not(:last-child) {
