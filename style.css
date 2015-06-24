@@ -166,3 +166,33 @@ td {
 .content a:hover {
 	text-decoration: underline;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .navmenu ul {
+    padding-right: 1rem;
+  }
+
+	.navmenu li:not(:last-child) {
+		padding-right: 2rem;
+	}
+
+}
+
+@media (max-width: 1064px) {
+  .navmenu ul {
+		padding-top: 0.8rem;
+    padding-right: 1rem;
+  }
+
+	.navmenu li:not(:last-child) {
+		padding-right: 2rem;
+	}
+
+	.navmenu img {
+		height: 50px;
+		padding-left: 1rem;
+	}
+
+}
